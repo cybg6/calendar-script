@@ -38,7 +38,7 @@ def create_calendar_pdf(year):
 
         # Create a table to hold the calendar data
         month_name = datetime(year, month_n, 1).strftime('%B')
-        data = [[month_name], day_names_full]
+        data = [[month_name.upper()], day_names_full]
 
         # Split the calendar into lines
         lines = month_calendar.split('\n')
