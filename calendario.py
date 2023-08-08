@@ -13,7 +13,7 @@ def create_calendar_pdf(year):
 
     # Define page dimensions and margins
     page_width, page_height = landscape(A4)
-    x_margin = 12
+    x_margin = 16
     y_margin = 13
     calendar_width = page_width - x_margin * 2
     calendar_height = page_height - y_margin * 2
